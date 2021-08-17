@@ -15,6 +15,7 @@ body{
     src: url(Montserrat-ExtraLight.ttf);
     font-size: 20px;
 }
+/* ============nav bar ============== */
 .nav{
     position: fixed;
     top: 0%;
@@ -35,6 +36,7 @@ body{
       border: 2px solid var(--black--);
       background-color: var(--bblack--);
       transition: 1s;
+      padding-left: 10px;
 }
 .nav_info form input:hover{
     background-color: var(--white--);
@@ -56,3 +58,16 @@ body{
     padding: 8px 20px;
     font-family: font;
 }
+.nav_info a:hover{
+    border: 2px solid var(--blue--);
+   
+}
+.nav_info form i{
+    position: fixed;
+    color: var(--blue--);
+    top: 6.9%;
+    left:54.9%;
+    z-index: 2;
+}
+/* =========home page ========= */
+
