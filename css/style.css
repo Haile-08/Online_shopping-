@@ -1,0 +1,58 @@
+:root{
+    --blue--:#1666af;
+    --black--:#090c17;
+    --bblack--:#12141c;
+    --white--:#fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--black--);
+}
+@font-face{
+    font-family: font;
+    src: url(Montserrat-ExtraLight.ttf);
+    font-size: 20px;
+}
+.nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: var(--bblack--);
+    padding:50px 90%;
+}
+.nav_logo{
+    position: fixed;
+    top: 2%;
+    left: 5%;
+}
+.nav_info form input{
+      position: fixed;
+      top:6%;
+      left:54%;
+      border-radius: 10px;
+      border: 2px solid var(--black--);
+      background-color: var(--bblack--);
+      transition: 1s;
+}
+.nav_info form input:hover{
+    background-color: var(--white--);
+    text-decoration: none;
+}
+
+.nav_info{
+    position: fixed;
+    top: 6%;
+    left: 70%;
+   
+}
+.nav_info a{
+    
+    text-decoration: none;
+    color: var(--white--);
+    font-size: 15px;
+    font-family: allfont;
+    padding: 8px 20px;
+    font-family: font;
+}
