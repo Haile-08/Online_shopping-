@@ -71,3 +71,7 @@ body{
 }
 /* =========home page ========= */
 
+.home_image{
+    margin-top: 100px;
+    transform: scaleX(100px);
+}
