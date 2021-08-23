@@ -23,9 +23,8 @@
                      </form>
                      <a href="#home">HOME</a>
                      <a href="#categories">CATEGORIES</a>
-                     <a href="#">LOGIN</a>
-                     <a href="#">REGISTER</a>
-
+                     <a href="login.php">LOGIN</a>
+                     <a href="registration.php">REGISTER</a>
                  </div>
           </div>
     </section>
@@ -49,26 +48,53 @@
                   <h1>Categories</h1>
                   <div class="line"></div>
                 <div class="catcontainer">
+                    <a href="soap.html">
                     <div class="soap" id="l"> 
-                         
-                    </div>
+                         <img src="images/so.jpg" class="io" width="150px" height="100px" >
+                         <p>soap</p>
+                    </div></a>
+                    <a href="snacks.html">
                     <div class="snacks" id="l">
-
+                        <img src="images/Sn.jpg"  class="io" width="150px" height="100px" alt="">
+                        <p>snacks</p>
                     </div>
+                </a>
+                   <a href="beverage.html">
                     <div class="beverage" id="l">
-
+                        <img src="images/bev.jpg"  class="io" width="150px" height="100px" alt="">
+                        <p>beverage</p>
                     </div>
+                </a>
+                  <a href="electronics.html">
                     <div class="electronics" id="l">
-
+                        <img src="images/el.jpeg"  class="io" width="100px" height="100px" alt="">
+                        <p>electronics</p>
                     </div>
+                </a>
+                  <a href="laptops.html">
                     <div class="laptops" id="l">
-
+                         <img src="images/lap.jpg"  class="io"width="100px" height="100px" alt="">
+                         <p>laptops</p>
                     </div>
+                </a>
+                 <a href="phones.html">
                     <div class="phones" id="l">
-
+                          <img src="images/p.jpg"  class="io" width="100px" height="100px"alt="">
+                          <p>phones</p>
                     </div>
+                </a>
                 </div>
             </div>
+    </section>
+    <section class="footer">
+        <footer>
+              <div class="f_top">
+                     <h1>Adulis</h1>
+              </div>
+              <div class="f_bot">
+                    <p>copyright©2021 adulis</p>
+              </div>
+        </footer>
     </section>
 </body>
 </html>

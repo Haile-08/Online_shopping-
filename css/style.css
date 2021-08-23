@@ -37,11 +37,13 @@ body{
       border: 2px solid var(--black--);
       background-color: var(--bblack--);
       transition: 1s; 
+      padding: 3px 0px 3px 2px;
+    
 }
 .nav_info form input:hover{
     background-color: var(--white--);
     text-decoration: none;
-    padding:2px 0px 2px 30px;
+    padding:5px 0px 5px 30px;
 }
 
 .nav_info{
@@ -107,6 +109,7 @@ body{
 /* ============categories============= */
 .categories_container{
     padding-top: 120px;
+    padding-bottom: 300px;
 }
 .categories_container h1{
     color: var(--white--);
@@ -137,3 +140,164 @@ body{
      background-color: var(--bblack--);
      margin-left: 50px;
 }
+#l p{
+    color: var(--white--);
+    font-family: font;
+    margin-left: 100px;
+}
+#l img{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+/* =========footer=========== */
+.f_top{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--bblack--);
+    color: #fff ;
+    font-family: font;
+}
+.f_bot{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: font;
+    background-color: #000;
+    margin: 0px;
+}
+/* ========items======= */
+.item{
+    margin-top: 200px;
+    padding-bottom: 300px;
+}
+.item_container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    margin-left: 130px;
+    background-color: aqua;
+}
+.items{
+    width:250px;
+    height: 180px;
+    background-color: var(--bblack--);
+    margin-left: 50px;
+}
+/* ====login==== */
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_container{
+    width: 350px;
+    height: 330px;
+    font-family: font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bblack--);
+    margin-top: 200px;
+    border-radius: 10px;
+
+}
+.login_container form label{
+    display: block;
+    font-family: font;
+    color: var(--white--); 
+    max-width: 150px;
+    margin-left: 40px;
+}
+.login_container form p{
+    font-family: font;
+    color: var(--white--);
+    margin-left: 130px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid var(--blue--);
+    margin-right: 150px;
+    padding: 5px 5px 5px 5px;
+}
+.login_container form input{
+    margin-top: 10px;
+    margin-left: 90px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#su{
+    margin-left: 130px;
+    background-color: var(--blue--);
+    border: 2px solid var(--blue--);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+#pa{
+    margin-left: 5px;
+}
+
+/* =======registraion====== */
+
+.re{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.re_container{
+    width: 380px;
+    height: 520px;
+    font-family: font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bblack--);
+    margin-top: 100px;
+    border-radius: 10px;
+
+}
+.re_container form label{
+    display: block;
+    font-family: font;
+    color: var(--white--); 
+    max-width: 150px;
+    margin-left: 40px;
+
+}
+
+.re_container form p{
+    font-family: font;
+    color: var(--white--);
+    margin-left: 130px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid var(--blue--);
+    margin-right: 150px;
+    padding: 5px 5px 5px 5px;
+}
+.re_container form input{
+    margin-top: 10px;
+    margin-left: 90px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#su{
+    margin-left: 130px;
+    background-color: var(--blue--);
+    border: 2px solid var(--blue--);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+#pa{
+    margin-left: 5px;
+}
+
+/* =====admin page ====== */
